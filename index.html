@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lista de personagens Rick and Morty</h1>
+    <input type="text" id="searchCharactersByName" class="search" placeholder="Pesquisar personagem por nome" />
+
+    <div id="pagination">
+      <button id="prevPage">Anterior</button>
+      <button id="nextPage">Próximo</button>
+    </div>
+  </header>
+
+  <div id="charactersList" class="characters-list"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./js/api.js"></script>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
